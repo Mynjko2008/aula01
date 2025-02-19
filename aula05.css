@@ -1,0 +1,14 @@
+header {
+    background-color: red;  /* Cor De Fundo Do Cabeçalho */
+    text-align: center; /* Alinhamento Do Texto */
+    color: white; /* Cor Da Letra */
+    padding: 25px; /* Tamanho/Preemchimento Do Cabeçalho */
+    
+}
+
+footer {
+    background-color: blue;  /* Cor De Fundo Do RODAPÉ */
+    text-align: center; /* Alinhamento Do Texto */
+    color: white; /* Cor Da Letra */
+    padding: 25px; /* Tamanho/Preemchimento Do RODAPÉ*/
+}
