@@ -1,14 +1,60 @@
 header {
-    background-color: red;  /* Cor De Fundo Do Cabeçalho */
-    text-align: center; /* Alinhamento Do Texto */
-    color: white; /* Cor Da Letra */
-    padding: 25px; /* Tamanho/Preemchimento Do Cabeçalho */
-    
+    background-color: red;
+    /* Cor De Fundo Do Cabeçalho */
+    text-align: center;
+    /* Alinhamento Do Texto */
+    padding: 25px;
+    /* Tamanho/Preemchimento Do Cabeçalho */
+
 }
 
+header h1 {
+
+    color: white;
+    /* Cor Da Letra */
+    font-size: 26px;
+    /* Auterar o tamanho da letra */
+
+}
+
+.imagen 
+{
+    background-color: aquamarine;
+    padding: 120px;
+
+}
+
+.icons
+{
+    background-color: greenyellow;
+    padding: 120px;
+}
+.button 
+{
+    background-color: lightblue;
+    padding: 120px;
+}
+
+
+
 footer {
-    background-color: blue;  /* Cor De Fundo Do RODAPÉ */
-    text-align: center; /* Alinhamento Do Texto */
-    color: white; /* Cor Da Letra */
-    padding: 25px; /* Tamanho/Preemchimento Do RODAPÉ*/
+    background-color: blue;
+    /* Cor De Fundo Do RODAPÉ */
+    text-align: center;
+    /* Alinhamento Do Texto */
+    padding: 25px;
+    /* Tamanho/Preemchimento Do RODAPÉ*/
+
+
+}
+
+footer p {
+    color: white;
+    /* Cor Da Letra */
+    font-size: 25px;
+    /* Auterar o tamanho da letra */
+}
+footer .Primeiro-Nome 
+{
+    color: darkgreen;
 }

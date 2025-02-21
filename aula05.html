@@ -8,25 +8,34 @@
     <script src="https://kit.fontawesome.com/fec10f46ff.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="imagens/github.png" type="image/x-icon">
     <link rel="stylesheet" href="aula05.css">
+    
+</head>
 
 <body>
     <!-- Nosso Cabeçario -->
     <header>
         <h1> CAFETERIA DOM BOSCO</h1>
     </header>
-    
+
     <!-- Primeira Sessão -->
-    <section>
-        <img src="imagens/CATA-Copy-of-FACHADA-LATERAL-edited.jpeg" width="40%" alt="Imagem da cáfeteria" loading="lazy" >
+    <section class="imagen">
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dignissimos distinctio nihil sunt laborum aliquam cumque repudiandae iure? Distinctio porro magnam nesciunt dolorum modi sunt ipsum odit, quia natus similique.</p>
+        <img src="imagens/CATA-Copy-of-FACHADA-LATERAL-edited.jpeg" width="40%" alt="Imagem da caféteria"
+            loading="lazy">
 
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, aut facilis? Omnis, commodi corrupti quod qui nostrum culpa incidunt officia iste sequi maxime neque repellat rerum voluptas cumque perspiciatis. At?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dignissimos distinctio nihil sunt laborum
+            aliquam cumque repudiandae iure? Distinctio porro magnam nesciunt dolorum modi sunt ipsum odit, quia natus
+            similique.</p>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, aut facilis? Omnis, commodi corrupti quod
+            qui nostrum culpa incidunt officia iste sequi maxime neque repellat rerum voluptas cumque perspiciatis. At?
+        </p>
 
     </section>
 
     <!-- Segunda Sessão -->
-    <section>
+    <section class="icons">
+
         <i class="fa-solid fa-mug-saucer"></i>
         <i class="fa-solid fa-mug-hot"></i>
         <i class="fa-solid fa-mug-hot"></i>
@@ -34,14 +43,31 @@
     </section>
 
     <!-- Terceira Sessão -->
-    <section>
+    <section class="button">
+
         <button> ACESSAR </button>
+
     </section>
 
     <!-- RODAPÉ DA PÀGINA -->
     <footer>
-        <p>TODOS OS DIREITOS RESERVADOS</p>
+        <p class="Primeiro-Nome"> QUALQUER COISA OK? </p>
+        <p> TODOS OS DIREITOS RESERVADOS </p>
+
     </footer>
+
+    <!-- Tag Para BTN libras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
 </body>
 
 </html>
